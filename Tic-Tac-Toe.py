@@ -44,7 +44,7 @@ def main():
     if ready == "Y":
         take_turns()
     elif ready == "N":
-        game_active = 0
+        game_active =  0
     else:
         print("game start error")
 main()
